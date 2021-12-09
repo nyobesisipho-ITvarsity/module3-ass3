@@ -1,0 +1,248 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+     height: 100%;
+}
+
+.body-home {
+    background-image: url('images/res.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-image: url('images/backgr.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*============ HEADER ============*/
+.header {
+    background-color: palegreen;
+    width: 100%;
+    height: 15%;
+    top: 0;
+    
+    
+    position: fixed;
+    overflow: hidden;
+     
+}
+
+.header i {
+    float: left;
+    padding: 20px 0px 0px 20px;
+    color: #green;
+    
+}
+
+.header img {
+     width: 200px;
+    padding-top: 14px;
+    padding-bottom: 25px
+}
+
+/*============ HOME PAGE ============*/
+
+#home-city {
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo {
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+
+/*====== HOME PAGE MENU======*/
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: #green;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid #ffffff;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+    
+}
+
+/*============ MEALS PAGE ============*/
+#meals {
+    padding-top: 115px;
+}
+
+
+/*====== MEALS PAGE MENU======*/
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid;
+    color: #green;
+    margin: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #green;
+    padding-left: 10px;
+}
+
+.meals-list-item i {
+    float: right;
+    color: #green;
+    padding: 10px;
+    
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #ffff;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*============ STARTERS ============*/
+
+#starter {
+    padding-top: 5px;
+}
+
+/*====== STARTERS PAGE MENU======*/
+.starters-details img {
+    width: 100%;
+}
+
+.starters-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.starter-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.starter-details-info p {
+    font-size: 15px;
+    display: inline-block;
+}
+
+.starter-details-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+
+.home-menu h2 {
+    text-align: center;
+    color: #green;
+    font-size: 110px;
+}
+
+
+.home-menu p {
+    text-align: center;
+    color: #green;
+    font-size: 30px;
+}
+
+.button {
+  background-color: palegreen;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px ;
+  cursor: pointer;
+}
+
+/*============ RESPONSIVE LAYOUT ============*/
+
+@media only screen and (min-width: 600px) {
+    #starter {
+        width: 80%;
+        margin:auto;
+    }
+    #starter {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+  #starter {
+        width: 60%;
+        margin:auto;
+    }
+    #starter {
+        width: 60%;
+        margin: auto;
+    }  
+
+}
+
+
+@media only screen and (min-width: 1500px) {
+  #meals {
+        width: 40%;
+        margin:auto;
+    }
+    #starter {
+        width: 40%;
+        margin: auto;
+    }  
+
+}
+
+@media only screen and (min-width: 720px) {
+    .body-home{
+        background-image: url('images/backgr.png');
+    }
+    .body-meals {
+        background-image: url('images/res.jpg');
+    }
+}
+
+
+
+
+
+
+
+
+
